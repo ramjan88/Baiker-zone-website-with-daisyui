@@ -194,15 +194,58 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="md:container md:mx-auto">
       <!-- Fetured Bikes In This Year -->
-      <section class="mt-24 space-y-4 text-center ">
-        <h2 class="text-4xl">Fetured Bikes In This Year</h2>
-        <p>Best bike collection</p>
-        <div class="grid grid-cols-3">
+      <section class="mt-24 space-y-4 text-center">
+        <h2 class="text-4xl font-bold">Fetured Bikes In This Year</h2>
+        <p class="text-red-500">
+          Best <span class="border-b-red-700">bike collec</span>tion
+        </p>
+        <div class="grid grid-cols-3 gap-5 text-center">
           <img src="images/others/feature-bike.png" alt="" />
           <img src="images/others/feature-bike.png" alt="" />
           <img src="images/others/feature-bike.png" alt="" />
+        </div>
+      </section>
+
+      <!-- latest News section -->
+
+      <section>
+        <h2 class="text-4xl mt-40 font-bold text-center">Latest News</h2>
+
+        <div class="grid grid-cols-3 gap-7 mt-10">
+          <!-- latest bike 1 -->
+          <div class="space-y-4 p-10 shadow-xl">
+            <img src="images/others/latest1.png" alt="" />
+            <h3 class="text-2xl font-semibold">Ducati XDIAVEL S-73</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+              fermentum amet faucibus sed id nisi lectus at.
+            </p>
+            <button class="btn bg-color-primary text-white">Read more</button>
+          </div>
+          <!-- latest bike 2 -->
+
+          <div class="space-y-4 p-10 shadow-xl">
+            <img src="images/others/latest2.png" alt="" />
+            <h3 class="text-2xl font-semibold">Motorcycles & Scooters</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+              fermentum amet faucibus sed id nisi lectus at.
+            </p>
+            <button class="btn btn-outline btn-error">Read more</button>
+          </div>
+          <!-- latest bike 3 -->
+
+          <div class="space-y-4 p-10 shadow-xl">
+            <img src="images/others/latest3.png" alt="" />
+            <h3 class="text-2xl font-semibold">2024 Honda CBR500R</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+              fermentum amet faucibus sed id nisi lectus at.
+            </p>
+            <button class="btn btn-outline btn-error">Read more</button>
+          </div>
         </div>
       </section>
     </main>
